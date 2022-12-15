@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<htmfamilyl lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Your Life</title>
+
+    <link rel="stylesheet" href="css/introduce.css"  ">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Pacifico&family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./JavaScript/introduce.js"></script>
+  
+  </head>
+<body>
+    <br>
+    <header>
+      <nav>
+      <div id = menu >
+        <ul class="firstMenuBar">
+          <li class="firstmenuli" ><a class="active about" href="introduce.html">About &nbsp;J</a></li>      
+          <li class="firstmenuli" ><a  class="active" href="login.html">Login</a></li>          
+          <li class="firstmenuli" ><a class="active" href="signup.html">Sign Up</a></li>
+          <li class="firstmenuli"><a class="active" href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  
+  <section>
+
+    <div class="v-line"> </div>
+    <p class="v-line-fo">KIMHYEJIN&nbsp;PORTFOLIO</p>
+    <div class = "pictures">
+      <h1 id="num01">04</h1>
+      <hr id="mainhr">  
+    </div>
+    
+    <h2 id="maintitle"> PROFILE </h2> 
+    
+    <div id="meImoji" ></div>
+
+    <div id="comment" >
+        <p id="firstcom"><br><!--안녕하세요! 홈페이지 개발자 김혜진입니다--></p><br>
+  
+        <p id="secondcom" style="margin-top: 0px ;" >저는 여행이 좋아서 오랫동안 여행사에서 일을 했는데요,
+          <br>이번 개인 홈페이지 또한 제가 좋아하는 여행 느낌이 나도록<br> 제작해보았습니다.<br><br>
+          하기 <b style="color:pink; font-style: italic;"><u> 개발자 로드맵</u></b> 페이지는 저의 미래 개발 공부 계획에 대해서 <br> 설명하는 페이지로 바로가기를 통해 이동하시면 확인하실 수 있구요,<br><br>   
+          지금까지 제가 여행한 나라에 대한 여행 기록도 하단 <b style="color:pink; font-style: italic;"><u> 여행일기 </u></b> 에서 <br> 확인하실 수 있으니 구경해보세요! </p><br>
+          <hr id="mainhr2">
+  
+    </div> 
+
+    <p id="basicinfo" > 기본정보 </p><br><br><br><br><br>
+    <div class="wrapper">
+      <div class="basicInfoBox"> CAREER </div>
+      <p class="content"> 💛 여행사 해외 패키지 여행 상품 운영 담당</p>
+      <div class="basicInfoBox"> LIKES </div>
+      <p class="content"> 🧡 넷플릭스탐험 &nbsp; 미드보기 &nbsp; 여행가기 &nbsp; 피아노치기 &nbsp; 영화보기 &nbsp; 닭발<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 커피 고양이 &nbsp;배드민턴</p>
+      <div class="basicInfoBox">FAVORITE MOVIES </div>
+      <p class="content"> 💛 begin again &nbsp; 당신이 잠든 사이에 &nbsp; 리틀포레스트 &nbsp; 실버라이닝 플레이북</p>
+    </div><br><br><br><br><br><br><br>
+    <div id="down" > 
+    <img src="./imagehome/downbutton.png" alt="" id="secondtitle"  onclick="toDown();">
+    <img src="./imagehome/downbutton.png" alt="" id="secondtitle2" onclick="toDown();">
+
+    <div id="pagesContent"><br>
+      <hr id="pageHr" >
+      <div id="roadmap"><span>개발자 로드맵</span>
+        <p id="roadmap2"> 향후 개발자로서의 계획과 다짐을 간단하게 작성한 페이지입니다.</p>
+        <a class="shiftAtag" href="roadmap.html" style="margin-left: 730px; margin-top: -24px;">바로가기 »</a> 
+       
+      <hr id="pageHr2"  style="width: 790px; margin-left: 0; margin-top: 0;" >  
+      <span id="diary">여행 일기</span>
+      <p id="roadmap3"> 그동안 여행한 나라에 대해서 소개해드립니다 : ) <br>
+        각 나라 이름을 클릭해보세요!</p>
+      <a href="travelDiary_index.html" class="shiftAtag st2" >바로가기 » </a> 
+    
+      </div>
+    </div>
+</section><br><br><br><br>
+
+<hr id="lastline" style="background :white; height: 0.1px; border:white;"><br>    
+<footer>
+    <img id="git" src="./imagehome/github.png" alt="github" onclick="moveToGit();" style="cursor:pointer;">
+    <img id="insta" src="./imagehome/insta.png" alt="instagram" onclick="moveToInsta();" style="cursor:pointer;">
+    <img id="kakao" src="./imagehome/kakao.png" alt="instagram" onclick="moveToKakao();" style="cursor:pointer;"><br>
+  
+    <span id="makeyourlife" style="font-size: 12px;"> <B>MAKE YOUR LIFE</B> |  This homepage is to explore Hyejin </span><br>
+    <span id="makesec" style="font-size: 12px;" >Through this, I hope you can know about a person making her own life.</span> <br><br>  
+    <span id="copyright" style="font-size: 12px;">Copyright © Kim Hyejin. All Rights Reserved.</span>
+    <br>
+</footer> <br><br><br>
+</body>
+</html>

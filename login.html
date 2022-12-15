@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css"  ">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Pacifico&family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <br>
+    <header>
+      <nav>
+      <div id = menu >
+        <ul class="firstMenuBar">
+          <li class="firstmenuli" ><a class="active about" href="introduce.html">About &nbsp;J</a></li>      
+          <li class="firstmenuli" ><a  class="active" href="#login">Login</a></li>          
+          <li class="firstmenuli" ><a class="active" href="signup.html">Sign Up</a></li>
+          <li class="firstmenuli"><a class="active" href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+    
+  <section style="height: 500px;">
+    <div class="v-line"> </div>
+    <p class="v-line-fo">KIMHYEJIN&nbsp;PORTFOLIO</p>
+    <div class = "pictures">      
+      <h1 id="num01">03</h1>      
+      <p id="loginUl"> LOGIN AND EXPLORE KIM HYE JIN </p><br>
+      <p id="loginUlsec">if you log in, you can see the whole information about hyejin.<br>
+      if you don't have ID yet, you can simply make your own ID through the 'Sign Up' page.</p>
+
+      <div id="tickeyBox"></div>
+      <h1 id="nyc">ICN</h1>
+      <img id="niLine" src="./imagehome/화살표.png" alt="">
+      <h1 id="icn">MYL</h1>
+      <p id="quote">&nbsp; MY NEXT DESTINATION IS MY FUTURE. LET'S FIND IT TOGETHER </h4>
+      <div id="tickeyBox2"> <img id="bacode" src="./imagehome/bacodepng.png" alt=""></div>
+      
+     <div id="formLogin">
+      <hr id="idpwline" style="width: 500px;">
+      
+      <form action="JavaScript:" method="" class="LoginMenu" name="join" id="join" >
+        
+        <label for="id" id="labelid"> ID </label><br>
+        <input type="text" class = "input_id_pw"  name="id"  id="id"  minlength="4" maxlength="12"
+              placeholder=" 아이디를 입력하세요"   title="4~12자의 영문 소문자와 숫자로만 입력" required /> <br>
+
+        <label for="pw" id="labelpw">PW</label> <br>
+        <input type="password" class = "input_id_pw"
+               name="pw" id="pw" placeholder="비밀번호를 입력하세요"  title="숫자/영문자/특수문자를 반드시 1자 이상 포함하는 4~15자 이내의 문자" required  minlength="4" maxlength="16"><br>
+        <input type="submit" value="로그인"  class="inputSiSu" id="input_signin">
+        <input type="button" value="회원가입" class="inputSiSu" id="backtoSI" onclick="location.href='signup.html'">
+        
+       <!-- <input type="submit" value="회원가입" id="input_signup"> -->
+    </div> <!-- form div -->
+  </div> 
+  </section>
+  <script src="JavaScript/login.js"></script> 
+
+  <footer>
+    <hr id="lastline" style="background :white; height: 0.1px; border: #000;"><br>
+    <img id="git" src="./imagehome/github_black.png" alt="github" onclick="moveToGit();" style="cursor:pointer; background-color: white;">
+    <img id="insta" src="./imagehome/insta.png" alt="instagram" onclick="moveToInsta();" style="cursor:pointer;">
+    <img id="kakao" src="./imagehome/kakao.png" alt="instagram" onclick="moveToKakao();" style="cursor:pointer;"><br>
+  
+    <span id="makeyourlife" style="font-size: 12px;"> <B>MAKE YOUR LIFE</B> |  This homepage is to explore Hyejin </span><br>
+    <span id="makesec" style="font-size: 12px;" >Through this, I hope you can know about a person making her own life.</span> <br><br>  
+    <span id="copyright" style="font-size: 12px;">Copyright © Kim Hyejin. All Rights Reserved.</span>
+    <br><br>
+  
+  </footer><br><br><br>
+
+</body>
+</html>

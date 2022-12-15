@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J's Travel Diary</title>
+
+  <link rel="stylesheet" href="./css/travelDiary_index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Pacifico&family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+  <script src="JavaScript/travelDiary_index.js"></script>
+  <script src="./JavaScript/jquery-3.6.1.js"></script>
+  
+</head>
+
+<body>
+  <br>
+<header>  <!-- header는 메인 메뉴바 + nav(메뉴바) -->
+  <nav>
+    <div id = menu >
+    <ul class="firstMenuBar" >
+      <li class="firstmenuli" ><a class="active about" href="introduce.html">About &nbsp;J</a></li>      
+      <li class="firstmenuli" ><a  class="active" href="login.html">Login</a></li>          
+      <li class="firstmenuli" ><a class="active" href="signup.html">Sign Up</a></li>
+      <li class="firstmenuli"><a class="active" href="index.html">Home</a></li>
+  </ul>
+  </div>
+  </nav>
+</header>
+
+<section style="height: 500px;">
+  <div class="v-line"> </div>
+  <p class="v-line-fo">TRAVEL&nbsp;DIARY</p>
+
+  <div class = "pictures">
+    <img id="firstImg" src="./imagehome/indeximage.jpg" alt="">
+    <img id="introimg" border="0" > <!-- 변경되는이미지 -->    
+    <img id="wideimg" src="imagehome/widediv.jpg" alt="">
+    <img id="waffle" src="imagehome/div4.jpg" alt="">
+  </div>
+
+<div class="overseas_travelList">
+    <p id="contentp" >COUNTRY LIST</p>
+    <span>01 | MALASIA &nbsp;</span><br>
+    <span onclick="turkey();"> 02 | TURKEY &nbsp;</span><br>
+    <span>03 | GERMANY | FRANCE | ITALY &nbsp;</span><br>
+    <span>04 | THAILAND &nbsp; </span><br>
+</div>
+
+<div id="contentpp">
+    <span onclick="china();">05 | CHINA  &nbsp; </span><br>
+    <span>06 | HONGKONG  &nbsp; </span><br>
+    <span>07 | VIETNAM(3)  &nbsp; </span><br>
+    <span  onclick="thailand3();" >08 | THAILAND(3)  &nbsp; </span><br>
+</div>
+<!-- <div class="travelList">
+    <p id="contentpp">CITY LIST</p>
+    <span>00 제주도 </span>
+    <span>00 속초 </span>
+    <span>00 강릉 </span>
+</div> -->
+<br><br><br>
+<hr style="background :#000; height: 0.1px; border: #000;" >
+<br>
+<footer>
+<img id="git" src="./imagehome/github.png" alt="github" onclick="moveToGit();" style="cursor:pointer;">
+<img id="insta" src="./imagehome/insta.png" alt="instagram" onclick="moveToInsta();" style="cursor:pointer;">
+<img id="kakao" src="./imagehome/kakao.png" alt="instagram" onclick="moveToKakao();" style="cursor:pointer;"><br>
+
+<span id="makeyourlife" style="font-size: 12px;"> <B>MAKE YOUR LIFE</B> |  This homepage is to explore Hyejin </span><br>
+<span id="makesec" style="font-size: 12px;" >Through this, I hope you can know about a person making her own life.</span> <br><br>  
+<span id="copyright" style="font-size: 12px;">Copyright © Kim Hyejin. All Rights Reserved.</span>
+<br><br>
+
+</footer>

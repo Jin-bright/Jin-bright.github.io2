@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/memberList.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Pacifico&family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <!-- <body onload="showImage()"> -->
+      <br>
+    <header>  <!-- header는 메인 메뉴바 + nav(메뉴바) -->
+      <nav>
+        <div id = menu >
+        <ul class="firstMenuBar" >
+          <li class="firstmenuli" ><a class="active about" href="introduce.html">About &nbsp;J</a></li>      
+          <li class="firstmenuli" ><a  class="active" href="login.html">Login</a></li>          
+          <li class="firstmenuli" ><a class="active" href="signup.html">Sign Up</a></li>
+          <li class="firstmenuli"><a class="active" href="index.html">Home</a></li>
+      </ul>
+      </div>
+      </nav>
+    </header>
+    <div id="back">  <br> </div>
+   <!-- <hr id="up" style="background-color:black; border: black;"> -->
+    <h1 id="num01">02</h1>      
+    <section >
+      <div class="v-line"> </div>
+      <p class="v-line-fo">KIMHYEJIN&nbsp;PORTFOLIO</p>
+      <div class = "pictures">
+        <p class="memberp" id="memberlistP" style="z-index:2;"> MEMBER LIST </p>
+
+
+        <table id="tbl-guestbook">
+            <thead>
+                <tr>
+                    <th >NO</th>
+                    <th >아이디</th>
+                    <th>이름</th>
+                    <th>가입날짜</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+
+            </tbody>
+        </table>
+        <style>
+        #tbl-guestbook th, #tbl-guestbook td{
+          /*  border: 1px solid black; */
+            padding: 5px;
+            text-align: center;
+            background-color: black;
+            opacity: 0.6;
+            color:white;
+            
+        }
+        </style>
+    </section>
+
+ <!--   <p class="memberp" id="memberlistpp"> MAKE YOUR LIFE의 회원 목록을 볼 수 있는 페이지입니다. <BR><br>
+     </p> --> 
+
+     <p id = "memberlistppp"> 아직 회원이 아니신가요 ? 
+      <br><b><b><u>SIGN UP </u></b></b> 버튼을 눌러보세요! &nbsp; 회원가입을 하실 수 있습니다.</p><Br><Br><Br>
+
+    <a href="signup.html" id="memberList"> &nbsp;«&nbsp;  SIGN UP &nbsp;</a>
+    <footer>
+      <hr id="lastline" style="background : black; height: 0.1px; border: #000;"><br>
+      <img id="git" src="./imagehome/github.png" alt="github" onclick="moveToGit();" style="cursor:pointer; background-color: white;">
+      <img id="insta" src="./imagehome/insta.png" alt="instagram" onclick="moveToInsta();" style="cursor:pointer;">
+      <img id="kakao" src="./imagehome/kakao.png" alt="instagram" onclick="moveToKakao();" style="cursor:pointer;"><br>
+    
+      <span id="makeyourlife" style="font-size: 12px;"> <B>MAKE YOUR LIFE</B> |  This homepage is to explore Hyejin </span><br>
+      <span id="makesec" style="font-size: 12px;" >Through this, I hope you can know about a person making her own life.</span> <br><br>  
+      <span id="copyright" style="font-size: 12px;">Copyright © Kim Hyejin. All Rights Reserved.</span>
+      <br><br>
+
+    </footer>
+    <script src="JavaScript/memberList.js"></script> 
+</body>
+</html>

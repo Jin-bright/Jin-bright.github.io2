@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sign up </title>
+
+  <link rel="stylesheet" href="./css/signup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Pacifico&family=Sunflower:wght@300;500&display=swap" rel="stylesheet">
+  <!-- <script src="JavaScript/signup.js"></script>  앞에서 하면 안됨 -->
+</head>
+
+<body>
+  <br>
+<header>  <!-- header는 메인 메뉴바 + nav(메뉴바) -->
+  <nav>
+    <div id = menu >
+    <ul class="firstMenuBar" >
+      <li class="firstmenuli" ><a class="active about" href="introduce.html">About &nbsp;J</a></li>      
+      <li class="firstmenuli" ><a  class="active" href="login.html">Login</a></li>          
+      <li class="firstmenuli" ><a class="active" href="signup.html">Sign Up</a></li>
+      <li class="firstmenuli"><a class="active" href="index.html">Home</a></li>
+  </ul>
+  </div>
+  </nav>
+</header>
+
+<section style="height: 500px;">
+  <div class="v-line"> </div>
+  <p class="v-line-fo">KIMHYEJIN&nbsp;PORTFOLIO</p>
+  <div class = "pictures">
+    <h1 id="num01">02</h1>      
+    <p id="signup-p" style="z-index:2;"> SIGN UP</p>
+    <P id="signup_details"  style="z-index:2;" >This page is for membership.<br>You can sign up with your minimal information and find a list of existing members.<br>
+    <br>회원가입을 위한 페이지로 최소한의 정보로 회원가입을 할 수 있으며,
+    <B style="color: red;">MEMBER LIST</B>에서 기존 회원들의 목록도 볼 수 있습니다.<br>
+    MAKE YOUR LIFE의 회원이 되어 김혜진을 알아보세요! </P>
+    <br>
+
+    <div id="form-su">
+
+      <form action="javascript:saveGuestbook()" method="post" class="signupMenu" name="join" id="joinid">
+        
+        <label for="id" class="labelForForm"  id="labelId"> ID </label><br>
+        <input type="text" class = "inputs_su check"  name="idname"  id="id"  minlength="4" maxlength="12"
+              placeholder=" 아이디 입력(4~12자)" title="4~12자 사이의 영문 소문자와 숫자로만 입력" required />
+        <hr id="idHr" style="background :white; height: 0.1px; border: #000;" >
+        
+        <label for="pw" class="labelForForm"  id="labelPw">PASSWORD</label> <br>
+        <input type="password" class = "inputs_su check" name="pwname" id="pw" placeholder="PASSWORD 입력"  title="숫자/영문자/특수문자 반드시 1자 이상 포함하는 4~15자리 이내 필수" required  minlength="4" maxlength="15" ><br>
+        <span id="pwchecksay" > (숫자/영문자/특수문자를 반드시 1자 이상 포함하는 4~15자리 이내의 암호 필수)</span><br>
+        <hr id="pwHr" style="background :white; height: 0.1px; border: #000;">
+
+        <label for="pwcheck" class="labelForForm" id="labelPwcheck">PASSWORD CHECK </label> <br>
+        <input type="password" class = inputs_su  name="pwDouble" id="pwcheck" placeholder="PASSWORD랑 동일해야함" required minlength="4" maxlength="15" ><br>
+        <hr id="pw22Hr" style="background :white; height: 0.1px; border: #000;">  
+      
+        <label for="realname" id="labelName"> NAME </label><br>
+        <input type="text"  class = inputs_su name="realname" id="realname" placeholder="이름 입력" required  >
+        <br><br><hr id="namePhoneHr" style="background :white; height: 0.1px; border: #000;" > 
+
+
+        <label for="newPhone" id = "labelPhone"> MOBILE </label> <br>
+        <div class="form-su Phone">
+          <select class="inputs_mobile" id="mobile1" name="mobile1name" style="width:45px; height: 18px; "   >
+            <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+            <option value="019">019</option>
+          </select>
+          -<input class="inputs_mobile" id="mobile2" name="mobile2name" maxlength="4" value="" type="text" style="width: 40px" >
+          -<input class="inputs_mobile" id="mobile3" name="mobile3name" maxlength="4" value="" type="text" style="width: 40px" >
+        </div><hr id="phoneHr" style="background :white; height: 0.1px; border: #000;"> 
+        <input type="submit" value="SIGN UP" id="signupButton">
+      </form>
+      <a href="memberList.html" id="memberList"> &nbsp;MEMBER LIST &nbsp;»&nbsp; </a>
+      <hr style="width:101px; margin: 0px 0 0 553px; background-color:white; border: red;" >
+    </div>
+  </div>  
+</section>
+<footer>
+  <hr id="lastline" style="background :white; height: 0.1px; border: #000;"><br>
+  <img id="git" src="./imagehome/github_black.png" alt="github" onclick="moveToGit();" style="cursor:pointer; background-color: white;">
+  <img id="insta" src="./imagehome/insta.png" alt="instagram" onclick="moveToInsta();" style="cursor:pointer;">
+  <img id="kakao" src="./imagehome/kakao.png" alt="instagram" onclick="moveToKakao();" style="cursor:pointer;"><br>
+ 
+  <span id="makeyourlife" style="font-size: 12px;"> <B>MAKE YOUR LIFE</B> |  This homepage is to explore Hyejin </span><br>
+  <span id="makesec" style="font-size: 12px;" >Through this, I hope you can know about a person making her own life.</span> <br><br>  
+  <span id="copyright" style="font-size: 12px;">Copyright © Kim Hyejin. All Rights Reserved.</span>
+  <br><br>
+
+  <script src="JavaScript/signup.js"></script>
+
+</footer><br><br><br>
+
+</body>
+</html>
