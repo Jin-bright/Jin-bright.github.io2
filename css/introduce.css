@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+   overflow-x:hidden; 
+   width: 1024px;
+}
+
+:root{
+    background-color: #000;
+}
+
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 60px; */
+    
+}
+
+.active:hover {
+    background-color :white;
+    border-radius:  50px;
+    width: 100px; 
+    color:black
+}
+
+
+/* ----  위쪽 공통 메뉴 부분 끝 -----  */
+
+
+/* 숫자 + 수직선  */ 
+.pictures{ /* 사진 1 + 2 div */
+    margin-left:60px;
+    margin-top: -20px;
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+}
+
+#num01{
+    display: inline-block;
+    width : 20px;
+    margin-left: -5px;
+    margin-bottom: 30px;
+    height: 40px;
+    padding: 2px 40px 00px 0px;
+    color: white;
+    
+}
+
+.v-line{
+    border-left: 2px solid white;
+    height:40%;
+    left: 75px;
+    top: 130px;
+    position: absolute;
+}
+.v-line-fo{
+    width: 1px;
+    left: 75px;
+    top:610px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-weight: bold;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/* profile */
+
+
+#maintitle{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 190px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#mainhr{
+    width: 595px; 
+    position: relative;
+    top: 0px;
+    left: 158px;
+}
+
+#mainhr2{
+    width: 414px; 
+    position: relative;
+    top: 184px;
+    left: 170px;
+}
+
+
+#meImoji{ /* 사진으로 변경 )*/ 
+    background-image:url("../imagehome/사본\ -menot.jpg");
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    width: 330px;
+    height: 370px;
+ 
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    filter: grayscale(100%);
+    border :none;
+}
+
+
+
+#basicinfo{ /*기본정보*/
+    position: absolute;
+    top: 505px;
+    left: 550px;
+    font: bolder 19px 'Noto Sans KR';
+    color: white;
+}
+
+#comment{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: 380px;
+    font: bolder 17px 'Noto Sans KR';
+    width: 400px;
+}
+
+#firstcom{ /*안녕하세요*/
+    font: bold 24px  'Noto Sans KR';
+    display: inline;
+    position: absolute;
+    top: -75px;
+    left: 170px;
+    width: 440px;
+    margin: 0;
+    font-weight: 500;
+}
+
+#secondcom{
+    position: absolute;
+    top: 35px;
+    left: 170px;
+    font: 14px 'Noto Sans KR';
+    width: 430px;
+    font-weight: 400
+}
+
+/* 페이지 안내 + 선 */ 
+
+
+#pagesContent{
+    margin-top: 000px;
+}
+
+#pageHr{
+    width: 790px;
+    position: absolute;
+    top: 250px;
+    left: -320px;
+}
+
+#roadmap{
+    color: white;
+    font:bolder 26px  'Noto Sans KR';
+    position: absolute;
+    top: 270px;
+    left: -320px;
+
+}
+
+#roadmap2{
+    display: inline;
+    width: 350px;
+    color: white;
+    font: 400 13px  'Noto Sans KR';
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+
+#pageHr2{
+    width: 790px;
+    position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+#roadmap3{
+    width: 790px;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+    color: white;
+    font: 400 13px  'Noto Sans KR';
+}
+
+#diary{
+    color: white;
+    font:bold 26px  'Noto Sans KR';
+    position: absolute;
+    top: 145px;
+    left: 0px;
+
+}
+
+#roadmap a{
+    margin-left: 500px;
+}
+
+.shiftAtag{
+    float: right;
+    width: 300px;
+    text-decoration: none; 
+    font-size: 14px; 
+    color: white;
+    display: inline;
+}
+
+.st2{
+    position: absolute;
+    top:140px;
+    left: 230px;
+    width: 100px;
+}
+
+.shiftAtag:hover{ 
+    font-size: 18px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px palevioletred;
+    /* color:palevioletred; */
+    transition-duration: 0.5s;
+}
+
+/*경력 likes 좋아하는 영화 */
+
+ .basicInfoBox{
+    color: pink;
+    font:  bolder 18px 'Knewave', 'Caveat Brush';
+    width:300px ;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 540px;
+    margin-top: 10px;
+
+} 
+
+.content{
+    font: 100 14px 'Noto Sans KR';
+    width:435px ;
+    border-radius: 10px;
+    margin: 3px 0 ; 
+    padding: 3px 0 ;
+    color: white;
+    margin-left: 540px;
+}
+
+/*pages */
+
+#secondtitle{
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
+#secondtitle2{
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+#down{
+    display: inline-block;
+    position: absolute;
+    top: 910px;
+    left: 500px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+   
+}
+
+#down:hover{
+   cursor: pointer;
+   background-color:rgba(169, 169, 169, 0.523);
+   
+}
+
+/*-- footer */ 
+
+#lastline{
+    margin: 600px 0 0 0px;
+}
+#git, #insta, #kakao{
+    width: 20px;
+    float: left;
+    margin-left: 40px;
+}
+#copyright{
+    float: right;
+    margin-right: 32px;
+    color: white;
+}
+
+#makeyourlife{
+    margin-left: 300px;
+    color: white;
+}
+
+#makesec{
+    margin-left: 260px;
+    color: white;
+}

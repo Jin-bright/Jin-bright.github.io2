@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+   overflow-x:hidden; ;
+   width: 1024px;
+}
+
+#back{
+    display: inline-block;
+    width: 400px;
+    height: 440px;
+    background-image : url(../imagehome/사본\ -index1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    margin-top: 0px;
+    
+}
+
+
+#back2{
+    display: inline-block;
+    width: 347px;
+    height: 440px;
+    background-image : url(../imagehome/index_back_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
+    background-attachment: scroll;
+    margin-left: 30px;
+    margin-top: 20px;  
+    padding-left: 50px;
+}
+
+.pictures{ /* 사진 1 + 2 div */
+    
+    margin-left:40px;
+    margin-top: -20px;
+    width: 900px;
+    height: 450px;
+    display: inline-block; 
+    padding-left: 20px;
+}
+
+/* 숫자 + 수직선  */ 
+#num01{
+    display: inline-block;
+    width : 20px;
+    margin-left: -5px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+    height: 40px;
+    padding: 20px 40px 00px 0px;
+
+    
+}
+
+.v-line{
+    border-left: 2px solid #000;
+    height:40%;
+    left: 75px;
+    top: 130px;
+    position: absolute;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+.v-line-fo{
+    width: 1px;
+    left: 75px;
+    top:610px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-weight: bold;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+/* --------------------------------  */
+
+h1#maintitle{  /* make your like*/ 
+    position: absolute;
+    display: inline;
+    width: 460px;
+    height: 210px;
+    top: 310px;
+    left: 60px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+   
+    color: white;
+    padding-top: 0px;
+    margin-bottom: 0;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+#mainquote{
+    display: block;
+    height: 100px;
+    width: 340px;
+
+
+    margin-bottom: 10px;
+    font-family: 'Noto Sans KR',Oxygen, sans-serif;
+    padding-top: 0px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 11px;
+    font-weight: lighter;
+  
+}
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+
+
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 60px; */
+    
+}
+
+.active:hover {
+    background-color : black;
+    border-radius:  50px;
+    width: 100px; 
+    color:white;
+}
+
+/*-- footer */ 
+
+#lastline{
+    margin: 70px 0 0 0px;
+}
+
+#git, #insta, #kakao{
+    margin-top: 35px;
+    width: 20px;
+    float: left;
+    margin-left: 30px;
+}
+#copyright{
+    float: right;
+    margin-right: 32px;
+}
+
+#makeyourlife{
+    margin-left: 160px;
+}
+#makesec{
+    margin-left: 110px;
+}
+
+
+

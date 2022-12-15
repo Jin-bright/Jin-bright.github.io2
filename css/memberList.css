@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400;500&family=Do+Hyeon&family=Jua&family=Knewave&family=Lobster&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+   overflow-x:hidden; overflow-y:auto;
+   width: 1024px;
+}
+
+#back{
+    background-image: url("../imagehome/mmmm.jpg");
+    width: 540px;
+    height: 585px;
+    background-repeat: no-repeat;
+    background-size: 95% 95%;
+    filter: grayscale(1%);
+
+    position: relative;
+    top:  10px;
+    left: 200px;
+    opacity: 0.7;
+
+}
+
+
+/* :root{
+    background-color: #000;
+}
+ */
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active:hover {
+    background-color :black;
+    border-radius:  50px;
+    width: 100px; 
+    color:white;
+}
+/* ----  위쪽 공통 메뉴 부분 끝 -----  */
+
+/* 숫자 + 수직선  */ 
+
+
+#num01{
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    
+    width : 20px;
+ 
+    height: 40px;
+    padding: 2px 40px 00px 0px;
+    color:black;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-size: 25px;
+}
+
+.v-line{
+    border-left: 2px solid black;
+    height:40%;
+    left: 75px;
+    top: 130px;
+    position: absolute;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+.v-line-fo{
+    
+    width: 1px;
+    left: 75px;
+    top:610px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-weight: bold;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+/*-- 본문  */ 
+
+.memberp{
+    display: inline;
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 30px 0px 0px 68px;
+    color:black;
+    left: 120px;
+    top:50px;
+}
+
+#memberlistP{ /* 큰타이틀 memberlist  */  
+    top : 100px;
+    left: 280px;
+    width: 300px;
+    height: 40px;
+    margin: 30px 0px 0px 65px;
+    font-weight: bolder;
+    font-size: 38px;
+    font-family:  'Noto Sans KR', 'M PLUS 1', cursive;
+}
+
+#memberlistpp{
+    top : 115px;
+    font-size: 13px;
+    font-weight:300;
+}
+
+#memberlistppp{
+    position:absolute;
+    top : 579px;
+    left: 265px;
+    font-size: 13px;
+    font-weight:300;
+    font-weight: 700px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+#up{
+    position: absolute;
+    top: 220px;
+    left: 140px;
+    height: 1px;
+    width : 400px;
+}
+
+#tbl-guestbook{
+    /* background-color: rgba(255, 255, 255, 0.87); */
+    width: 400px;
+    position: absolute;
+    top: 210px;
+    left: 265px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+    font-weight: 400;
+
+   /* border:  1px solid black; */
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px ;
+}
+
+
+#memberList:hover {
+    background-color: rgb(0, 0, 0);
+    transition-duration: 1s;
+    color: white;
+ }
+ 
+ #memberList { /* sign up */
+     display: inline;
+     position: absolute;
+     top: 600px;
+     left: 600px;
+     font: bolder 14px 'Noto Sans KR', 'Nanum Gothic Coding'; 
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     background-color: white;
+     border-radius: 10px 10px 10px 10px;
+     padding: 5px;
+ }
+
+/*-- footer */ 
+
+#lastline{
+    margin: -50px 0 0 0px;
+}
+
+#git, #insta, #kakao{
+    margin-top: 35px;
+    width: 20px;
+    float: left;
+    margin-left: 30px;
+}
+
+#copyright{
+    float: right;
+    margin-right: 32px;
+    color:black;
+}
+
+#makeyourlife{
+    margin-left: 160px;
+    color:black;
+}
+
+#makesec{
+    margin-left: 110px;
+    color: black;
+}
+
+
+#form-su{
+    /* margin: 60px 0  10px  0px ; */
+
+    width: 800px;
+}
+
+form{
+    width: 800px;
+}

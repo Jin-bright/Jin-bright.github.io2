@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+   overflow-x:hidden; overflow-y:auto;
+   width: 1024px;
+}
+
+:root{
+    background-color: #000;
+}
+
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 60px; */
+    
+}
+
+.active:hover {
+    background-color :white;
+    border-radius:  50px;
+    width: 100px; 
+    color:black
+}
+
+
+/* ----  위쪽 공통 메뉴 부분 끝 -----  */
+
+
+/* 숫자 + 수직선  */ 
+.pictures{ /* 사진 1 + 2 div */
+    margin-left:60px;
+    margin-top: -20px;
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+}
+
+#num01{
+    display: inline-block;
+    width : 20px;
+    margin-left: -5px;
+    margin-bottom: 30px;
+    height: 40px;
+    padding: 2px 40px 00px 0px;
+    color: white;
+    
+}
+
+.v-line{
+    border-left: 2px solid white;
+    height:40%;
+    left: 75px;
+    top: 130px;
+    position: absolute;
+}
+.v-line-fo{
+    width: 1px;
+    left: 75px;
+    top:610px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-weight: bold;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+#loginUl{  /*- 로그인 메인 글귀 */
+    color: white;
+    width: 900px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 140px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+#loginUlsec{  /*- 로그인 메인 글귀 */
+    color: white;
+    width: 900px;
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -20px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+#tickeyBox{
+    float: left;
+    display: inline;
+    position: relative;
+    width: 530px;
+    height: 250px;
+    background-color: gainsboro;
+    margin: 65px 0px 0px 140px;
+}
+
+
+#tickeyBox2{
+    display: inline;
+    position: absolute;
+    top: 202px;
+    left: 737px;
+    float: left; 
+    width: 70px;
+    height: 250px;
+    background-color:red;
+    margin-top: 65px;
+}
+
+#bacode{
+    display: inline;
+    position: absolute;
+    top: 102px;
+    left:-71px;
+    width: 210px;
+    height: 60px;
+    transform: rotate(90deg);
+   z-index: 2;
+}
+
+
+#nyc{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 173px;
+    left: 220px;
+    font-size: 100px;
+    color: #000;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+#icn{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 173px;
+    left: 520px;
+    font-size: 100px;
+    color: #000;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+#niLine{
+    z-index: 2;
+    display: inline;
+    position: absolute;
+    top: 288px;
+    left: 391px;
+}
+
+#quote{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 374px;
+    left: 230px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    background-color: black;
+    width: 325PX;
+    height: 18px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+/* label + input 태그 */ 
+#labelid{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 448px;
+    left: 230px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+#id{ /*input태그 */
+    top: 453px;
+    width: 180px;
+    left: 260px;
+}
+
+#labelpw{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 448px;
+    left: 480px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+}
+
+#pw{ /*input태그 */
+    top: 453px;
+    width: 180px;
+    left: 521px;
+}
+
+.input_id_pw{ /*input태그 */ 
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    font-size: 12px;
+    height: 17px;
+    font-weight: light;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+    border: none;
+    background-color: gainsboro;
+}
+
+#idpwline{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    top: 470px;
+    left: 200px;
+    height: 1px;
+    width: 600px;
+    background-color: black;
+    border: black;
+}
+
+#input_signin{ /*로그인버튼*/
+    height: 44px;
+    background-color: white;
+    left: 205px;
+    top: 548px;
+}
+
+#input_signin:hover{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+#backtoSI{/*회원가입버튼*/
+    background-color:black;
+    color: white;
+    border-color: white;
+    left: 321px;  
+    top: 550px; 
+}
+
+#backtoSI:hover{/*회원가입버튼*/
+    background-color:white;
+    color:black;
+    border-color:black;
+    left: 321px;  
+    top: 547px; 
+    transition-duration: 0.5s;
+    font-size: 18px;
+    font-weight: bold;
+    height: 46px;
+}
+
+
+
+
+/*로그인/회원가입 input 태그 */ 
+.inputSiSu{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    font-family: 'Noto Sans KR', 'Nanum Gothic Coding';
+    font-size: 15px;
+}
+
+
+#signup-p{
+    display: inline;
+    position: absolute;
+    
+    top : 60px;
+    left: 140px;
+    width: 200px;
+    height: 40px;
+    margin: 40px 0px 0px 140px;
+
+    padding-bottom: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700px;
+    font-weight: bolder;
+    font-size: 33px;
+  
+}
+
+#form-su {
+    margin: 30px 0px 0px 150px;
+    text-align: left;
+
+}
+
+
+.signupMenu label {
+    font-family: 'Noto Sans KR',Jua,'Nanum Gothic Coding';
+    font-size: 0.1rem
+}
+
+
+/*-- footer */ 
+
+#lastline{
+    margin: 100px 0 0 0px;
+}
+#git, #insta, #kakao{
+    margin-top: 35px;
+    width: 20px;
+    float: left;
+    margin-left: 30px;
+}
+#copyright{
+    float: right;
+    margin-right: 32px;
+    color: white;
+}
+
+#makeyourlife{
+    margin-left: 160px;
+    color: white;
+}
+
+#makesec{
+    margin-left: 110px;
+    color: white;
+}

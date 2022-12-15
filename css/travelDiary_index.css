@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+
+
+body{
+   overflow-x:hidden; overflow-y:auto;
+    width: 1024px;
+}
+
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color:black;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active:hover {
+    background-color :black;
+    border-radius:  50px;
+    width: 100px; 
+    color:white;
+}
+/* ----  위쪽 공통 메뉴 부분 끝 -----  */
+
+/* 숫자 + 수직선  */ 
+.pictures{ /* 사진 1 + 2 div */
+    margin-left:60px;
+    margin-top: -20px;
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+}
+
+
+
+.v-line{
+    border-left: 2px solid black;
+    height:90%;
+    left: 105px;
+    top: 90px;
+    position: absolute;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+.v-line-fo{    
+    width: 1px;
+    left: 75px;
+    top:570px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font: bolder 40px 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: 1300px;
+    color: black;
+    text-shadow: 2px 2px 3px pink;
+}
+
+
+
+
+
+
+/* 이미지 div 들  */ 
+#introimg{ /* 변하는 이미지 !! */
+    position: absolute;
+    top: 90px;
+    left: 100;
+    width:328px; 
+    height:200px;
+}
+
+#firstImg{
+    opacity: 0.5;
+    width: 240px;
+    height: 360px;
+    margin: 30px 5px 0 100px;
+}
+
+#wideimg{
+    position: absolute;
+    top: 294px;
+    left: 100;
+    width: 549px;
+    height: 155px;
+}
+
+#waffle{
+    filter: grayscale(100%);
+    display: inline;
+    position: absolute;
+    top: 90px;
+    left: 570;
+    margin-left: 330px;
+    width: 220px;
+    height: 200px;
+}
+
+.overseas_travelList{
+    margin: -60px 0 0 160px;
+    padding: 0;
+    height: 245px;
+    display: inline-block;
+}
+
+
+/* 목록 */ 
+#contentp{
+    margin: 20px 0 11px 0;
+    font: bolder 32px 'Noto Sans KR', 'M PLUS 1', sans-serif;
+    color: rgb(255, 84, 113);
+    /* text-shadow: 1px 1px 3px black; */
+}
+
+#contentp ~ span{
+    display: inline-block;
+    font: 13px 'Noto Sans KR', 'M PLUS 1', sans-serif;
+    height: 30px;
+    text-align: center;
+}
+
+
+#contentp ~ span:hover {
+    cursor: pointer;
+    color: rgb(255, 84, 113);
+    font-weight: bolder;
+    font-size:14px;
+}
+
+
+#contentpp{
+    font: 14px 'Noto Sans KR', 'M PLUS 1', sans-serif;
+    margin: 0 0 0 160px;
+    padding: 0;
+    height: 245px;
+    display: inline-block;
+}
+
+#contentpp  span{
+    display: inline-block;
+    font: 13px 'Noto Sans KR', 'M PLUS 1', sans-serif;
+    height: 30px;
+    text-align: center;
+}
+
+/* 각각 리스트를 마우흐 호버했을 때 효과 */ 
+#contentpp span:hover {
+    cursor: pointer;
+    color: rgb(255, 84, 113);
+    font-weight: bolder;
+    font-size:14px;
+}
+
+
+/*-- footer */ 
+#git, #insta, #kakao{
+    width: 20px;
+    float: left;
+    margin-top: -10px;
+    position: absolute;
+}
+
+#git{
+    left: 60px;
+}
+#insta{
+    left: 105px;
+}
+
+#kakao{
+    left: 150px;
+}
+
+
+#copyright{
+    float: right;
+    margin-right: 32px;
+}
+
+#makeyourlife{
+    margin-left: 300px;
+}
+#makesec{
+    margin-left: 260px;
+}
+

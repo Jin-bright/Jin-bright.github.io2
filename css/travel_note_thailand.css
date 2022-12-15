@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dancing+Script:wght@400;500&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+   overflow-x:hidden; 
+   width: 1024px;
+   margin-left: 100px;
+}
+
+
+/* 숫자 + 수직선 */ 
+#num01{
+    position: absolute;
+    left: -30px;
+    top: -110px;
+    display: inline-block;
+    width : 20px;
+    height: 40px;
+    font-size: 35px;
+}
+
+.v-line{
+    border-left: 2px solid #000;
+    height:40%;
+    left: 75px;
+    top: 180px;
+    position: absolute;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+.v-line-fo{
+    width: 1px;
+
+    position: absolute;
+    left: -2px;
+    top:440px;
+   
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-weight: bold;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+
+#love{
+    position: absolute;
+    top: -45px;
+    left: 120px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+}
+
+#love2{
+    position: absolute;
+    top: -45px;
+    left: 540px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+}
+
+#love3{
+    position: absolute;
+    top: -45px;
+    left: 980px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    width: 30px;
+}
+
+
+/* 본문 부분 */
+
+article{
+    position: relative;
+    left: 40px;
+    background-color: rgba(245, 170, 241, 0.445);
+    width:590px;
+    height: 600px;
+    margin-left: -120px;
+    margin-top: -15px;
+}
+
+#h2Thailand {
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    
+    font-size: 45px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: 900PX;
+  
+}
+
+
+table,p{
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+table{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    width: 500PX;
+}
+
+
+#line{
+    width: 420px;
+    position: absolute;
+    top: 165px;
+    left: 120px;
+}
+
+#note{
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    width: 400px;
+    font-weight: 400px;
+   
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: 120px;
+}
+
+
+.hashtag{
+    display: inline-block;
+    position: relative;
+    top: 184px;
+    left: 120px;
+    font : bolder 'Noto Sans KR','M PLUS 1', sans-serif;
+    text-decoration: underline;
+}
+
+
+
+/* --------------- 여기까지 왼쪽 ------------- */ 
+
+#photo2{ /*div 오른쪽 배경  */
+    position: absolute;
+    top: -14px;
+    left: 510px;
+
+    width: 510px;
+    height: 600px;
+
+    background-color:black;
+    display: inline;
+}
+
+#china1{
+    position: absolute;
+    width: 510px;
+    height: 250px;
+    display: inline;
+}
+
+
+#china3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    display: inline;
+    position: absolute;
+    top: 250px;
+
+}
+
+#china2{
+    position: absolute;
+    width: 260px;
+    height: 250px;
+    display: inline;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    
+}
+
+
+
+
+#memo{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    margin-left: 10px;
+    font-size  : 18px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+#pick{
+    position: absolute;
+    top: 400px;
+    left: 290px;
+    width: 150px;
+    height: 120px;
+    transform: rotate(310deg);
+}
+#phoeomark{
+    position: absolute;
+    top: 200px;
+    left: 377px;
+    width: 50px;
+    height: 155px;
+    opacity: 0.4;
+}
+#likes{
+    position: absolute;
+    top: 335px;
+    left: 377px;
+    width: 50px;
+    opacity: 0.4;
+   
+}
+
+#date{
+    position: absolute;
+    top: 460px;
+    left: 200px;
+    color: white;
+    font-size: 54px;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+}
+
+
+/*---- 워터마크 + 하트  + today's pick까지 */ 
+
+
+ #photo8{ /*div - bkk */
+    width: 600px;
+    height: 500px;
+    background-color: rgba(131, 149, 177, 0.329);
+    display: inline;
+    margin: -40px 0 0 450px;
+    border: NONE;
+} 
+
+
+#video1{
+    position: absolute;
+    top: -19px;
+    left:-40px;
+    /* border: solid 2px black; */
+    width: 500px;
+    height: 380px;
+    margin-top: 20px;
+
+}
+
+
+
+
+#photoSpan{
+    position: absolute;
+    left: 406px;
+    top: 395px;
+    font: 19px 'Noto Sans KR';
+}
+
+#photoMemo{
+    position: absolute;
+    font-size: 25px;
+    margin: -70px 0 0  50px;
+    font-family: 'Dancing Script';
+}
+
+
+
+
+.photo{
+    display: inline-block;
+    position: absolute;
+    top: 175px;
+    left: 100px;
+}
+
+
+
+
+#leftmark{ /* 뒤로가기 화살표 */ 
+    position: absolute;
+    top: 160px;
+    left: 46px;
+    display: inline-block;
+    width : 20px;
+    height: 20px;
+    margin-left: -20px;
+ 
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 14px;
+    z-index: 1;
+}
+
+#leftmark2{
+    position: absolute;
+    top: 160px;
+    left: 21px;
+    display: inline-block;
+    width : 20px;
+    height: 20px;
+ 
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 14px;
+}
+
+
+
+#leftmark:hover{
+    background-color: rgba(7, 7, 7, 0.096);
+    transition-duration: 1s;
+}
+

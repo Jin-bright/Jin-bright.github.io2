@@ -1,0 +1,215 @@
+:root{
+    background-color: rgba(183, 0, 255, 0.082);
+}
+
+body{
+   color: black;
+   overflow-x:hidden; overflow-y:auto;
+}
+
+/* 홈탭  */
+.firstMenuBar li {
+    list-style: none;
+}
+
+#menu {
+    font : bolder 13px "Jua" ;
+    width:170px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 800px;
+    margin-right: 10;
+    text-align: right;
+    padding-left: 50px;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-align : center ;
+    padding : 10px 5px 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 20px;
+    width: 50px;
+    
+}
+
+.active:hover {
+    background-color : rgb(112, 35, 112);
+    border-radius:  50px;
+    width: 100px; 
+    color:white;
+}
+
+
+/* About Kim Hye Jin */
+h1#maintitle{
+    font-family: 'Caveat Brush',Jua,'Nanum Gothic Coding';
+    font-style: bolder;
+    font-size: 50px;
+    color: rgb(112, 35, 112);
+    margin-top: 0;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+
+
+h1#maintitle2{
+    font-family: 'Caveat Brush',Jua,'Nanum Gothic Coding';
+    font-style: bolder;
+    font-size: 50px;
+    color: rgb(112, 35, 112);
+    margin-top: 0;
+    margin-left: 160px; 
+    margin-bottom: 80px;
+}
+
+
+/* 기본정보 */
+
+.profile1, .profile12{
+    margin-left: 90px;
+    /* background-color: rgba(117, 114, 119, 0.329); */
+    display: inline-block;
+}
+
+.contry_list{
+    display: inline-block;
+    margin-right: 200px;
+    margin-top: 140px;
+    float: right;
+}
+
+
+#information{
+    display: inline-block;
+    width: 130px;
+    height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(78, 39, 78, 0.959);
+    text-align: center;
+    font-family: Jua,'Nanum Gothic Coding';
+    font-size: 16px;
+}
+
+.profile_tbl {
+    padding-left: 0;
+    /* font-family: 'Do Hyeon', Jua,'Nanum Gothic Coding'; */
+    font-family: Jua,'Nanum Gothic Coding';
+}
+
+table tr td:first-child{
+    font-size:  12px;
+    font-weight: bolder;
+}
+
+table tr td{
+    font-size:  12px;
+}
+
+
+
+table tr td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    font-size:  13px;
+    font-weight: bolder;
+    margin: 10px 0px 4px 1px; /*margin : 상우하좌 콤마없음*/
+}
+
+#comment{
+    width: 400px;
+    height: 150px;
+    background-color:  rgba(210, 208, 211, 0.144);
+    margin-left: -3px;
+    padding: 20px 20px 20px 20px;
+    font-family: Jua,'Nanum Gothic Coding';
+    font-size:  11px;
+    
+}
+
+#travelDiary {
+    display: inline-block;
+    width: 130px;
+    height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(78, 39, 78, 0.959);
+    text-align: center;
+    font-family: Jua,'Nanum Gothic Coding';
+    font-size: 16px;
+}
+
+
+#me_profile{
+    width: 200px;
+    height: 200px;
+    
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+/* 지도 이미지 */ 
+#map{
+     background-color: white;
+     display: inline-block;
+     border-radius: 50%;
+     width: 400px;
+     height: 400px;
+     position: relative;
+     margin-top: 50px;
+}
+
+
+#turkey{
+    width: 20px;
+    position: absolute;
+    left: 320px;
+    top: 1130px;
+    z-index: 10;
+}
+
+#ger{
+    width: 20px;
+    position: absolute;
+    left: 310px;
+    top: 1100px;
+    z-index: 10;
+}
+/* 이걸 해당되는 모든 그림에 적용하려면 자바스크립트로해야되나?*/
+#turkey:hover, #ger:hover{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+
+}
+
+h3, h4{
+    font-family: Jua,'Nanum Gothic Coding';
+    font-size: 12px;
+}

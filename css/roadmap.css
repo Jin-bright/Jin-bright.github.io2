@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Do+Hyeon&family=Jua&family=Knewave&family=M+PLUS+1:wght@300;400;700&family=Martel+Sans:wght@200;400;600;900&family=Nanum+Gothic&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Pen+Script&family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Oxygen:wght@300&family=Pacifico&family=Sunflower:wght@300;500&display=swap');
+body{
+  overflow-x:hidden;
+   width: 1024px;
+}
+
+
+/* 숫자 + 수직선  */ 
+#num01{
+    display: inline-block;
+    width : 20px;
+    margin-left: 56px;
+    margin-top: -2px;
+    height: 40px;
+    padding: 0px 40px 00px 0px;  
+}
+
+#roadMapH1{
+    display: inline;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+}
+
+.v-line{
+    border-left: 2px solid #000;
+    height:40%;
+    left: 75px;
+    top: 130px;
+    position: absolute;
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+.v-line-fo{
+    width: 1px;
+    left: 75px;
+    top:610px;
+    position: absolute;
+    line-height: 19px;
+    transform: rotate(270deg);
+    font-family: 'Noto Sans KR','M PLUS 1', sans-serif;
+    font-weight: bold;
+}
+
+
+.firstMenuBar li {
+    list-style: none;
+}
+
+
+/*메뉴바 */ 
+#menu {
+    font : 100  11px  'Noto Sans KR' ;
+    width:370px;
+    height:50px;
+    line-height: 50px; 
+    margin-left: 600px;
+    margin-right: 40;
+    text-align: right;
+}
+
+ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+
+#menu > ul { /*주메뉴*/
+    width: 500px;
+    float: right;
+    padding: 0;
+    margin:  0;
+}
+
+#menu > ul > li { /*주메뉴*/
+    float:right;
+    width: 80px;
+    position:relative;
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+    text-align : center ;
+    padding : 5px 7px 5px 7px;
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-right: 60px; */
+    
+}
+
+.active:hover {
+    background-color : black;
+    border-radius:  50px;
+    width: 100px; 
+    color:white;
+}
+
+/* 로드맵 배경 + 글자  */
+.Htag {
+    position: absolute;
+    color:rgb(0, 0, 0);
+    font: bolder 19px 'Noto Sans KR' ;
+    width: 200px;
+    top:40px;
+}
+
+
+.pictures{
+    position: relative;
+    background-image: url(../imagehome/road.jpg);
+    background-color: white;
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    width: 834px;
+    height: 930px;
+    margin: 0px 0  0px 100px;
+    left: 100px;
+    filter: grayscale(70%);
+    }
+
+.pics1{
+    position: absolute;
+    width: 360px;
+    left: 390px;
+    height : 930px;
+    background-color:rgba(8, 8, 8, 0.695);
+    opacity :0.9;
+
+}    
+
+.plan1{ /*2023 상반기 */
+    list-style: none;
+     font-size: 13px;
+     font-weight: 400;
+     font-family: 'Noto Sans KR' ;
+     padding: 0 20px 0 5px;
+     color:white;
+     position: absolute;
+     top:110px;
+     left: 410px;
+     width: 300px;
+     display: inline-block;
+     opacity: 0;
+}
+
+
+#sixmonth{ /* h1태그임 -  2023 상반기-  */
+    top: -70px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
+    z-index: 1;
+    color:white;
+
+}
+
+
+#one{
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Noto Sans KR' ;
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    z-index: 1;
+    color: white;
+}
+
+#oneCircle{
+    display: inline-block;
+    position: absolute;
+    background-color:none;
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    border:white solid 1px;
+    left: 210px;
+    top: 75px;
+    
+}
+
+#stamp1{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+
+#one:hover{
+    cursor: pointer;
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition: ease-in;
+}
+
+#one:hover ~ #stamp1{
+    opacity: 1;
+}
+
+#one:hover ~ #oneCircle{
+    opacity: 0;
+}
+
+#one:hover ~.plan1 { /*형제니까 ~ */ 
+    opacity: 1;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 30px orange;
+    text-shadow: 2px 2px 20px rgb(229, 255, 0);
+}
+
+
+/*--------------2023 ----------*/
+
+/*--------------2026 ------ */
+
+
+
+#two{
+    font: 300 80px 'Noto Sans KR' ;
+    position: absolute;
+    top: 300px;
+    left: 240px;
+    z-index: 1;
+    color: white;
+}
+
+#stamp2{
+    position: absolute;
+    top: 380px;
+    left: 207px;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+#plan2{
+    list-style: none;
+    padding: 0 20px 0 5px;
+    color: white;
+    position: absolute;
+    top: 410px;
+    left: 410px;
+    width: 300px;
+    display: inline-block;
+    opacity: 0;
+    font: 400 13px 'Noto Sans KR' ; 
+}
+
+
+#Years2026Htag{ /* h1태그임 -  2026 -  */
+    top:-70px;
+    left: 40px;
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
+    z-index: 1;
+    color: white;
+}
+
+
+#twoCircle{
+    display: inline-block;
+    position: absolute;
+    background-color:none;
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    border:white solid 1px;
+    left: 210px;
+    top: 355px;
+}
+
+#two:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+
+#two:hover ~ #twoCircle{
+    opacity: 0;
+}
+
+#two:hover ~ #stamp2{
+    opacity: 1;
+}
+
+
+#two:hover ~.plan { /*형제니까 ~ */ 
+    opacity: 1;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 30px orange;
+    text-shadow: 2px 2px 20px rgb(229, 255, 0);
+}
+/*-------------- 이후  ----- */
+
+
+#three{
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Noto Sans KR' ;
+    position: absolute;
+    top: 600px;
+    left: 240px;
+    z-index: 1;
+    color: white;
+}
+
+
+#three:hover ~ #threeCircle{
+    opacity: 0;
+}
+
+
+
+#stamp3{
+    position: absolute;
+    top: 670px;
+    left: 207px;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+
+#threeCircle{
+    display: inline-block;
+    position: absolute;
+    background-color:none;
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    border:white solid 1px;
+    left: 210px;
+    top: 655px;   
+}
+
+#Years2027Htag{ /* h1태그임 -  2030 -  */
+    position: absolute;
+    left: 20px;
+    color:white;
+    font: bolder 25px 'Noto Sans KR' ;
+    width: 200px;
+    top:-65px;
+ }
+ 
+.plan3{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Noto Sans KR' ;
+    padding: 0 20px 0 5px;
+    color:white;
+    position: absolute;
+    top: 720px;
+    left: 410px;
+    width: 400px;
+    display: inline-block;
+    opacity: 0;
+}
+
+#three:hover{
+    cursor: pointer;
+    opacity: 0;
+}
+
+#three:hover ~.plan3 { /*형제니까 ~ */ 
+    opacity: 1;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 30px orange;
+    text-shadow: 2px 2px 20px rgb(229, 255, 0);
+}
+#three:hover ~ #stamp3{
+    opacity: 1;
+}
+
+#three:hover  #Years2027Htag { /*형제니까 ~ */ 
+    opacity: 1;
+    transition-duration: 1s;
+    text-shadow: 1px 1px 30px orange;
+    text-shadow: 2px 2px 20px rgb(229, 255, 0);
+}
+
+
+
+
+.plan li{
+    padding-bottom: 8px;
+}
+
+#ctn3{  /* 2026 div 임 */ 
+    height: 150px;
+    top: 519px;
+    left: 460px;
+}
+
+#ctn5{  /* 2027 div 임 */ 
+    height: 125px;
+    top: 831px;
+    left: 460px;
+}
+
+
+
+
+ul>li{
+    padding: 2px;
+}
+
+.Htag:hover { /*년도 호버하면 지는 그림자  */
+    text-shadow: 3px 3px 5px black; /*세번째요소가 흐린정도 */
+}
+
+
+
+/* 백엔드 & 프론트 언어 h1  */ 
+.languagetag{
+    position: absolute;
+    color: rgb(92, 247, 20);
+    font: bold  26px 'Do Hyeon','Nanum Pen Script'; 
+    height: 10px;
+    width: 100px;
+    top:8px;
+    left: 27px;
+    margin: 0 0 -20px 0;
+}
+#developer{
+    position: absolute;
+    color: rgb(92, 247, 20);
+    font: 100  17px 'Do Hyeon','Nanum Pen Script'; 
+    top: 18px;
+    left: 33px;
+}
+
+
+#backcircle{
+    position: absolute;
+    display: inline-block;
+    top:280px;
+    left: 823px;
+    width: 145px;
+    height: 60px;
+    background-color:none;
+    border-radius: 50%;
+    border: solid  rgb(92, 247, 20);
+}
+
+#frontcircle{
+    position: absolute;
+    display: inline-block;
+    top:430px;
+    left: 139px;
+    width: 145px;
+    height: 60px;
+    background-color:none;
+    border-radius: 50%;
+    border: solid  rgb(92, 247, 20);
+
+}
+
+
+#frontend{
+    top:9px;
+    left: 17px;
+}
+
+
+#developer2{ /*프론트*/ 
+    position: absolute;
+    color: rgb(123, 248, 66);
+    font: 100  17px 'Do Hyeon','Nanum Pen Script'; 
+    top:18px;
+    left: 30px;
+}
+
+
+
+#frontctn{ /* frontend div 임 */
+    top: 664px;
+    left: 130px;
+    width: 270px;
+    height: 230px;
+    color: rgb(9, 36, 123);
+    background-color: white;
+}
+
+.languagetag:hover{
+    text-shadow: 3px 3px 5px white /*세번째요소가 흐린정도 */
+
+}
+
+
+/* 각각 호버하면 div 나타나게 */ 
+
+
+#backend:hover ~ #backctn { /* 백엔드  */
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+#frontend:hover ~ #frontctn { /* 프론트엔드  */
+    cursor: pointer;
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+#Years2026Htag:hover ~ #ctn3 { /*형제니까 ~ */
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+#Years2027Htag:hover ~ #ctn5 { /*형제니까 ~ */
+    opacity: 1;
+    transition-duration: 2s;
+}
+
+/* 위로 화살표 */
+
+#secondtitle{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    transform: rotate(180deg);
+
+}
+#secondtitle2{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    transform: rotate(180deg);
+}
+
+#up{
+    display: inline-block;
+    position: absolute;
+    top: 1010px;
+    left: 570px;
+    background-color:rgba(169, 169, 169, 0.523);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#up:hover {
+   cursor: pointer;
+   background-color:black;
+}
+
+#secondtitle:hover  #up{
+    background-color:darkgrey
+ }
+
+
+/*-- footer */ 
+#lastline{
+    margin: 0px 0 0 0px;
+  
+}
+
+#git, #insta, #kakao{
+    width: 20px;
+    float: left;
+    margin-left: 40px;
+}
+#copyright{
+    float: right;
+    margin-right: 32px;
+}
+
+#makeyourlife{
+    margin-left: 300px;
+}
+#makesec{
+    margin-left: 260px;
+}
+
